@@ -32,7 +32,7 @@ function App() {
 
   useEffect(() => {
     setErrorTips('')
-  }, [meal, peopleNum, restaurant, dishes])
+  }, [meal, peopleNum, restaurant, dishes, currentPage])
 
   const next = () => {
     if (getErrorTips()) {
