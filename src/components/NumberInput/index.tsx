@@ -10,7 +10,7 @@ const NumberInput = memo((props: Props) => {
 
   useEffect(() => {
     onChange && onChange(num)
-  }, [num, onChange])
+  }, [num])
 
   const handleNumChange = (isAdd: boolean) => {
     if (isAdd) {

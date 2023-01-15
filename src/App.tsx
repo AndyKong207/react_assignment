@@ -55,6 +55,7 @@ function App() {
   }
 
   const handleStepItemClick = (current: number) => {
+    if (current > currentPage && getErrorTips()) return
     setCurrentPage(current)
   }
 
