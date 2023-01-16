@@ -1,3 +1,5 @@
+# 在线预览
+https://andykong207.github.io/react_assignment/build/index.html
 # 完成截图
 ## step1
 ![step1](screenshot/step1.png)
@@ -13,6 +15,7 @@
 
 <!-- toc -->
 
+- [在线预览](#在线预览)
 - [完成截图](#完成截图)
   - [step1](#step1)
   - [step2](#step2)
