@@ -66,13 +66,13 @@ const Step2 = memo(() => {
       <div className="mb-12">
         <AddButton onClick={handleAddDish} />
       </div>
-      <ul className="border-2 border-black p-4">
+      {selectedDished.length > 0 && <ul className="border-2 border-black p-4">
         {selectedDished.map((item) => (
           <li key={item.name}>
             {item.name} - {item.count}
           </li>
         ))}
-      </ul>
+      </ul>}
     </div>
   )
 })
